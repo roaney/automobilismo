@@ -4,3 +4,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'google';
+    src: url('../fontes/GoogleSans-VariableFont_GRAD\,opsz\,wght.ttf') format('truetype');
+}
+h1 {
+    font-family: google;
+}
