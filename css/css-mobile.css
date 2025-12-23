@@ -14,7 +14,7 @@ header {
     display: grid;
     grid-template: 50px 50px / 1fr 3fr 3fr 1fr;
     place-items: center center;
-    background-image: url(../imagens/daytona-unsplash.jpg);
+    background-image: url(../imagens/daytona-header.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -55,4 +55,8 @@ i {
 #imsa {
     background-image: url(../imagens/imsa.jpeg);
     background-position: right bottom;
+}
+#imsa-logo {
+    width: 150px;
+    grid-area: 2 / 2 / -1 / -1;
 }
