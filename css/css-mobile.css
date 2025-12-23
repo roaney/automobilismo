@@ -64,3 +64,8 @@ i {
     width: 100px;
     grid-area: 1 / 2 / 2 / -1;
 }
+.display {
+    color: white;
+    font-style: italic;
+    font-size: 1.5em;
+}
