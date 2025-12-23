@@ -42,3 +42,17 @@ i {
     font-size: 1.5em;
     padding: 5px 0px;
 }
+.contagem {
+    height: 400px;
+    display: grid;
+    grid-template: 200px 200px / 1fr 1fr;
+    place-items: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 0px black;
+}
+#imsa {
+    background-image: url(../imagens/imsa-unsplash.jpg);
+    background-position: right bottom;
+}
