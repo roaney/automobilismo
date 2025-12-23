@@ -35,3 +35,9 @@ i {
     grid-area: 1 / 1 / -1 / 2;
     color: green;
 }
+#titulo-main {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
