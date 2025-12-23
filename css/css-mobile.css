@@ -9,6 +9,21 @@
     font-family: 'google';
     src: url('../fontes/GoogleSans-VariableFont_GRAD\,opsz\,wght.ttf') format('truetype');
 }
-h1 {
+header {
+    height: 100px;
+    display: grid;
+    grid-template: 50px 50px / 1fr 3fr 3fr 1fr;
+    place-items: center center;
+}
+#home {
     font-variant: small-caps;
+    grid-area: 1 / 2 / 2 / -2;
+}
+#racing {
+    font-variant: small-caps;
+    grid-area: 2 / 3 / -1 / -1;
+}
+i {
+    font-size: 2em;
+    grid-area: 1 / 1 / -1 / 2;
 }
