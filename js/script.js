@@ -10,9 +10,11 @@ function regressiva(diaEvento, idElemento) {
             display.innerHTML = '<i class="fa-solid fa-flag fa-rotate-by fa-xs" style="color: #00ff00; --fa-rotate-angle: 20deg;"></i>É hoje!'
         } else if (diferenca < -86400000) {
             display.textContent = 'Evento encerrado!'
+            clearInterval(intervalo)
         } else {
             display.textContent = `Faltam ${dias} dias!`
         }
     }, 1000)
 }
 regressiva(new Date(2026, 0, 24), 'txt-imsa')
+regressiva(new Date(2026, 5, 13), 'txt-wec')
