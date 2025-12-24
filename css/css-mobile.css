@@ -59,6 +59,8 @@ i {
 #imsa-logo {
     width: 150px;
     grid-area: 2 / 2 / -1 / -1;
+    border-radius: 15px;
+    overflow: hidden;
 }
 #daytona-24 {
     width: 100px;
@@ -79,4 +81,6 @@ i {
 }
 #le-mans-24 {
     width: 100px;
+    border-radius: 15px;
+    overflow: hidden;
 }
