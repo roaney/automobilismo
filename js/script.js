@@ -9,10 +9,10 @@ function regressiva(diaEvento, idElemento) {
         } else if (diferenca <= 0 && diferenca >= -86400000) {
             display.innerHTML = '<i class="fa-solid fa-flag fa-rotate-by fa-xs" style="color: #00ff00; --fa-rotate-angle: 20deg;"></i>É hoje!'
         } else if (diferenca < -86400000) {
-            display.innerHTML = '<i class="fa-solid fa-flag-checkered fa-rotate-by fa-xs" style="color: #000000; --fa-rotate-angle: 20deg;"></i>Evento encerrado!'
+            display.textContent = 'Evento encerrado!'
         } else {
             display.textContent = `Faltam ${dias} dias!`
         }
     }, 1000)
 }
-regressiva(new Date(2025, 11, 23), 'txt-imsa')
+regressiva(new Date(2026, 0, 24), 'txt-imsa')
