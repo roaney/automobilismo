@@ -84,3 +84,7 @@ i {
 #le-mans-24 {
     width: 100px;
 }
+#wec-logo {
+    width: 130px;
+    grid-area: 2 / 1 / -1 / 2;
+}
