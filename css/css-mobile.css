@@ -52,6 +52,10 @@ i {
     background-size: cover;
     box-shadow: inset 0px 0px 100px 0px black;
 }
+.borda {
+    border-radius: 15px;
+    overflow: hidden;
+}
 #imsa {
     background-image: url(../imagens/imsa.jpeg);
     background-position: right bottom;
@@ -59,8 +63,6 @@ i {
 #imsa-logo {
     width: 150px;
     grid-area: 2 / 2 / -1 / -1;
-    border-radius: 15px;
-    overflow: hidden;
 }
 #daytona-24 {
     width: 100px;
@@ -81,6 +83,4 @@ i {
 }
 #le-mans-24 {
     width: 100px;
-    border-radius: 15px;
-    overflow: hidden;
 }
