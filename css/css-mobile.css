@@ -113,3 +113,10 @@ i {
 #txt-gtw {
     grid-area: 2 / 1 / -1 / 2;
 }
+#f1 {
+    background-image: url(../imagens/f1.jpg);
+    background-position: center bottom;
+}
+#f1-logo {
+    width: 130px;
+}
