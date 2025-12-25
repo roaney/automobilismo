@@ -90,11 +90,26 @@ i {
 }
 #motogp {
     background-image: url(../imagens/motogp.jpg);
-    background-position: right bottom;
+    background-position: center bottom;
 }
 #gp-brasil-motogp {
     width: 150px;
 }
 #motogp-logo {
     width: 170px;
+}
+#gtw {
+    background-image: url(../imagens/gtw.jpg);
+    background-position: center bottom;
+}
+#spa-24 {
+    width: 150px;
+    grid-area: 2 / 2 / -1 / -1;
+}
+#gtw-logo {
+    width: 130px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#txt-gtw {
+    grid-area: 2 / 1 / -1 / 2;
 }
