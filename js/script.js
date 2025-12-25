@@ -18,3 +18,4 @@ function regressiva(diaEvento, idElemento) {
 }
 regressiva(new Date(2026, 0, 24), 'txt-imsa')
 regressiva(new Date(2026, 5, 13), 'txt-wec')
+regressiva(new Date(2026, 2, 22), 'txt-motogp')

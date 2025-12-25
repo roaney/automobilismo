@@ -88,3 +88,13 @@ i {
     width: 130px;
     grid-area: 2 / 1 / -1 / 2;
 }
+#motogp {
+    background-image: url(../imagens/motogp.jpg);
+    background-position: right bottom;
+}
+#gp-brasil-motogp {
+    width: 150px;
+}
+#motogp-logo {
+    width: 170px;
+}
