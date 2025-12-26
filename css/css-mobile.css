@@ -108,14 +108,10 @@ i {
 }
 #spa-24 {
     width: 150px;
-    grid-area: 2 / 2 / -1 / -1;
 }
 #gtw-logo {
     width: 130px;
-    background-color: rgba(255, 255, 255, 0.3);
-}
-#txt-gtw {
-    grid-area: 2 / 1 / -1 / 2;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 #f1 {
     background-image: url(../imagens/f1.jpg);
@@ -135,7 +131,7 @@ i {
 }
 #nascar-logo {
     width: 170px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 10px;
 }
 #daytona-500 {
