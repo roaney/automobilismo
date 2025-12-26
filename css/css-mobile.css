@@ -122,7 +122,7 @@ i {
 }
 #f1-logo {
     width: 130px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 5px;
 }
 #nascar {
@@ -130,7 +130,7 @@ i {
     background-position: left bottom;
 }
 #nascar-logo {
-    width: 170px;
+    width: 190px;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 10px;
 }
