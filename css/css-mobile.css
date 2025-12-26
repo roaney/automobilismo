@@ -9,6 +9,9 @@
     font-family: 'google';
     src: url('../fontes/GoogleSans-VariableFont_GRAD\,opsz\,wght.ttf') format('truetype');
 }
+body {
+    background-color: black;
+}
 header {
     height: 100px;
     display: grid;
@@ -51,6 +54,7 @@ i {
     background-attachment: fixed;
     background-size: cover;
     box-shadow: inset 0px 0px 100px 0px black;
+    margin-bottom: 15px;
 }
 .borda {
     border-radius: 15px;
