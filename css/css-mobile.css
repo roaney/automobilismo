@@ -60,17 +60,18 @@ i {
     border-radius: 15px;
     overflow: hidden;
 }
+.posicao-grid {
+    grid-area: 1 / 1 / 2 / -1;
+}
 #imsa {
     background-image: url(../imagens/imsa.jpeg);
     background-position: right bottom;
 }
 #imsa-logo {
     width: 150px;
-    grid-area: 2 / 2 / -1 / -1;
 }
 #daytona-24 {
     width: 100px;
-    grid-area: 1 / 2 / 2 / -1;
 }
 .display {
     color: white;
@@ -90,7 +91,6 @@ i {
 }
 #wec-logo {
     width: 130px;
-    grid-area: 2 / 1 / -1 / 2;
 }
 #motogp {
     background-image: url(../imagens/motogp.jpg);
