@@ -129,3 +129,15 @@ i {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 5px;
 }
+#nascar {
+    background-image: url(../imagens/nascar.jpg);
+    background-position: left bottom;
+}
+#nascar-logo {
+    width: 170px;
+    background-color: rgba(30, 30, 30, 0.5);
+    padding: 10px;
+}
+#daytona-500 {
+    width: 170px;
+}
