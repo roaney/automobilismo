@@ -25,6 +25,7 @@ header {
     background-position: center center;
 }
 #menu {
+    display: none;
     position: absolute;
     top: 100px;
     left: 0px;
@@ -45,10 +46,11 @@ header {
     grid-area: 2 / 3 / -1 / -1;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
 }
-i {
+#botao {
     font-size: 2em;
     grid-area: 1 / 1 / -1 / 2;
     color: rgb(0, 255, 0);
+    cursor: pointer;
 }
 #titulo-main {
     background-color: black;

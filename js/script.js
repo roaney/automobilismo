@@ -24,3 +24,12 @@ regressiva(new Date(2026, 10, 8), 'txt-f1')
 regressiva(new Date(2026, 1, 15), 'txt-nascar')
 regressiva(new Date(2026, 4, 24), 'txt-indy')
 regressiva(new Date(2026, 4, 16), 'txt-adac')
+const botao = document.getElementById('botao')
+const menu = document.getElementById('menu')
+botao.addEventListener('click', () => {
+    if (botao.style.color == 'red') {
+        botao.style.color = 'rgb(0, 255, 0)'
+    } else {
+        botao.style.color = 'red'
+    }
+})
