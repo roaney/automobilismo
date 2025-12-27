@@ -137,3 +137,13 @@ i {
 #daytona-500 {
     width: 170px;
 }
+#indy {
+    background-image: url(../imagens/indy.jpg);
+    background-position: center bottom;
+}
+#indy-logo {
+    width: 150px;
+}
+#indy-500 {
+    width: 150px;
+}
