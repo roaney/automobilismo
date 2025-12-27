@@ -31,5 +31,5 @@ botaoAbrir.addEventListener('click', () => {
     menu.style.left = '0px'
 })
 botaoFechar.addEventListener('click', () => {
-    menu.style.left = '-200px'
+    menu.style.left = '-300px'
 })
