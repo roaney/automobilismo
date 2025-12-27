@@ -24,12 +24,12 @@ regressiva(new Date(2026, 10, 8), 'txt-f1')
 regressiva(new Date(2026, 1, 15), 'txt-nascar')
 regressiva(new Date(2026, 4, 24), 'txt-indy')
 regressiva(new Date(2026, 4, 16), 'txt-adac')
-const botao = document.getElementById('botao')
+const botaoAbrir = document.getElementById('abrir-menu')
+const botaoFechar = document.getElementById('fechar-menu')
 const menu = document.getElementById('menu')
-botao.addEventListener('click', () => {
-    if (menu.style.left == '0px') {
-        menu.style.left = '-200px'
-    } else {
-        menu.style.left = '0px'
-    }
+botaoAbrir.addEventListener('click', () => {
+    menu.style.left = '0px'
+})
+botaoFechar.addEventListener('click', () => {
+    menu.style.left = '-200px'
 })

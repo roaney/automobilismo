@@ -26,13 +26,19 @@ header {
 }
 #menu {
     position: absolute;
-    top: 100px;
+    top: 0px;
     left: -200px;
     width: 200px;
+    height: 100vh;
     background-color: white;
     text-align: center;
     border-radius: 0px 15px 15px 0px;
     transition: all 0.5s ease-out 0.2s;
+    padding: 10px;
+}
+#fechar-menu {
+    cursor: pointer;
+    transform: translateX(70px);
 }
 #home {
     font-variant: small-caps;
@@ -44,7 +50,7 @@ header {
     grid-area: 2 / 3 / -1 / -1;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
 }
-#botao {
+#abrir-menu {
     font-size: 2em;
     grid-area: 1 / 1 / -1 / 2;
     color: rgb(0, 255, 0);
