@@ -27,9 +27,9 @@ regressiva(new Date(2026, 4, 16), 'txt-adac')
 const botao = document.getElementById('botao')
 const menu = document.getElementById('menu')
 botao.addEventListener('click', () => {
-    if (botao.style.color == 'red') {
-        botao.style.color = 'rgb(0, 255, 0)'
+    if (menu.style.left == '0px') {
+        menu.style.left = '-200px'
     } else {
-        botao.style.color = 'red'
+        menu.style.left = '0px'
     }
 })
