@@ -147,3 +147,13 @@ i {
 #indy-500 {
     width: 150px;
 }
+#adac {
+    background-image: url(../imagens/adac.jpg);
+    background-position: center bottom;
+}
+#adac-logo {
+    width: 150px;
+}
+#nurburgring-24 {
+    width: 160px;
+}
