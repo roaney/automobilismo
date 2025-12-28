@@ -31,7 +31,7 @@ const overlay = document.getElementById('overlay')
 botaoAbrir.addEventListener('click', () => {
     menu.style.left = '0px'
     overlay.style.visibility = 'visible'
-    overlay.style.opacity = '0.8'
+    overlay.style.opacity = '0.7'
 })
 botaoFechar.addEventListener('click', () => {
     menu.style.left = '-300px'
