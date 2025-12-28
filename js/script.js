@@ -27,9 +27,12 @@ regressiva(new Date(2026, 4, 16), 'txt-adac')
 const botaoAbrir = document.getElementById('abrir-menu')
 const botaoFechar = document.getElementById('fechar-menu')
 const menu = document.getElementById('menu')
+const overlay = document.getElementById('overlay')
 botaoAbrir.addEventListener('click', () => {
     menu.style.left = '0px'
+    overlay.style.display = 'block'
 })
 botaoFechar.addEventListener('click', () => {
     menu.style.left = '-300px'
+    overlay.style.display = 'none'
 })
