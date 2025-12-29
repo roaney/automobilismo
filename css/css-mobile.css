@@ -195,3 +195,9 @@ header {
 #nurburgring-24 {
     width: 160px;
 }
+#main-f1 {
+    background-color: gray;
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
