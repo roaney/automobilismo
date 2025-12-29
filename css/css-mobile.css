@@ -26,6 +26,8 @@ header {
     background-position: center center;
 }
 #menu {
+    display: flex;
+    flex-flow: column nowrap;
     position: fixed;
     top: 0px;
     left: -300px;
