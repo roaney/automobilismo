@@ -29,6 +29,8 @@ header {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    gap: 10px;
+    font-size: 1.3em;
     position: fixed;
     top: 0px;
     left: -300px;
@@ -38,6 +40,10 @@ header {
     border-radius: 0px 15px 15px 0px;
     transition: all 0.5s ease-out 0.2s;
     padding: 15px;
+}
+.opcoes {
+    text-decoration: none;
+    color: black;
 }
 #overlay {
     visibility: hidden;
