@@ -29,7 +29,6 @@ header {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    
     position: fixed;
     top: 0px;
     left: -300px;
@@ -53,6 +52,7 @@ header {
 }
 #fechar-menu {
     cursor: pointer;
+    align-self: flex-end;
 }
 #home {
     font-variant: small-caps;
