@@ -13,7 +13,9 @@ botaoFechar.addEventListener('click', () => {
     overlay.style.opacity = '0'
 })
 const f1 = {
-    Melbourne: '8 de março'
-    Shanghai: '15 de março'
-    Suzuka: '29 de março'
+    Austrália: '8 de março',
+    China: '15 de março',
+    Japão: '29 de março',
+    Barein: '12 de abril',
+    ArábiaSaudita: '19 de abril'
 }
