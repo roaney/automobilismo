@@ -1,3 +1,4 @@
+/*
 const botaoAbrir = document.getElementById('abrir-menu')
 const botaoFechar = document.getElementById('fechar-menu')
 const menu = document.getElementById('menu')
@@ -12,18 +13,29 @@ botaoFechar.addEventListener('click', () => {
     overlay.style.visibility = 'hidden'
     overlay.style.opacity = '0'
 })
-
+*/
 const f1 = [
-    ['Fórmula 1', 'Austrália', '8 de março'],
+    ['Fórmula 1', 'Austrália', new Date(2026, 0, 4)],
     ['Fórmula 1', 'China', '15 de março'],
     ['Fórmula 1', 'Japão', '29 de março'],
     ['Fórmula 1', 'Barein', '12 de abril'],
     ['Fórmula 1', 'Arábia Saudita', '19 de abril']
 ]
 const nascar = [
-    ['Nascar', 'Bowman Gray', '1 de fevereiro']
-    ['Nascar', 'Daytona Duels', '12 de fevereiro']
-    ['Nascar', 'Daytona 500', '15 de fevereiro']
-    ['Nascar', 'Atlanta', '22 de fevereiro']
+    ['Nascar', 'Bowman Gray', new Date(2026, 0, 4)],
+    ['Nascar', 'Daytona Duels', '12 de fevereiro'],
+    ['Nascar', 'Daytona 500', '15 de fevereiro'],
+    ['Nascar', 'Atlanta', '22 de fevereiro'],
     ['Nascar', 'COTA', '1 de março']
 ]
+const hoje = new Date()
+const segunda = new Date(2026, 0, 5)
+const agendaHTML = document.getElementById('agenda-semanal')
+function filtroSemanal (categoria) {
+    const categoriaFiltrada = categoria.filter(([nome, local, data]) => {
+        return data >= hoje && data <= segunda
+    })
+    
+}
+filtroSemanal(f1)
+filtroSemanal(nascar)
