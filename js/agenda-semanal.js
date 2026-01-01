@@ -1,3 +1,4 @@
+/*
 const botaoAbrir = document.getElementById('abrir-menu')
 const botaoFechar = document.getElementById('fechar-menu')
 const menu = document.getElementById('menu')
@@ -12,10 +13,13 @@ botaoFechar.addEventListener('click', () => {
     overlay.style.visibility = 'hidden'
     overlay.style.opacity = '0'
 })
-const f1 = {
-    Austrália: '8 de março',
-    China: '15 de março',
-    Japão: '29 de março',
-    Barein: '12 de abril',
-    ArábiaSaudita: '19 de abril'
-}
+*/
+const f1 = [
+    ['Fórmula 1', 'Austrália', '8 de março'],
+    ['Fórmula 1', 'China', '15 de março'],
+    ['Fórmula 1', 'Japão', '29 de março'],
+    ['Fórmula 1', 'Barein', '12 de abril'],
+    ['Fórmula 1', 'ArábiaSaudita', '19 de abril']
+]
+const f1Filtro = f1.filter(([categoria, local, data]) => data == '8 de março')
+console.log(f1Filtro)
