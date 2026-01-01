@@ -39,5 +39,5 @@ function filtroSemanal (categoria) {
         agendaHTML.innerHTML += `<br>${nome} - ${local} - ${String(data.getDate()).padStart(2, '0')} / ${String(data.getMonth()+1).padStart(2, '0')}`
     })
 }
-filtroSemanal(f1)
-filtroSemanal(nascar)
+const todasCategorias = [f1, nascar]
+todasCategorias.forEach(elemento => filtroSemanal(elemento))
