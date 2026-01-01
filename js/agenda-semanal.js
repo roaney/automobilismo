@@ -1,4 +1,3 @@
-
 const botaoAbrir = document.getElementById('abrir-menu')
 const botaoFechar = document.getElementById('fechar-menu')
 const menu = document.getElementById('menu')
@@ -13,7 +12,6 @@ botaoFechar.addEventListener('click', () => {
     overlay.style.visibility = 'hidden'
     overlay.style.opacity = '0'
 })
-
 const f1 = [
     ['Fórmula 1', 'Austrália', new Date(2026, 0, 4)],
     ['Fórmula 1', 'China', '15 de março'],
