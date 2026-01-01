@@ -1,4 +1,4 @@
-/*
+
 const botaoAbrir = document.getElementById('abrir-menu')
 const botaoFechar = document.getElementById('fechar-menu')
 const menu = document.getElementById('menu')
@@ -13,7 +13,7 @@ botaoFechar.addEventListener('click', () => {
     overlay.style.visibility = 'hidden'
     overlay.style.opacity = '0'
 })
-*/
+
 const f1 = [
     ['Fórmula 1', 'Austrália', new Date(2026, 0, 4)],
     ['Fórmula 1', 'China', '15 de março'],
@@ -35,7 +35,9 @@ function filtroSemanal (categoria) {
     const categoriaFiltrada = categoria.filter(([nome, local, data]) => {
         return data >= hoje && data <= segunda
     })
-    
+    categoriaFiltrada.forEach(([nome, local, data]) => {
+        agendaHTML.innerHTML += `<br>${nome} - ${local} - ${String(data.getDate()).padStart(2, '0')} / ${String(data.getMonth()+1).padStart(2, '0')}`
+    })
 }
 filtroSemanal(f1)
 filtroSemanal(nascar)
