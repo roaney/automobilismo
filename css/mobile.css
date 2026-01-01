@@ -197,6 +197,7 @@ header {
 }
 #agenda-semanal {
     color: white;
+    font-size: 1.2em;
     text-align: center;
     padding: 15px;
 }

@@ -28,10 +28,10 @@ const nascar = [
     ['Nascar', 'Atlanta', '22 de fevereiro'],
     ['Nascar', 'COTA', '1 de março']
 ]
-const hoje = new Date()
-const segunda = new Date(2026, 0, 5)
-const agendaHTML = document.getElementById('agenda-semanal')
 function filtroSemanal (categoria) {
+    const hoje = new Date()
+    const segunda = new Date(2026, 0, 5)
+    const agendaHTML = document.getElementById('agenda-semanal')
     const categoriaFiltrada = categoria.filter(([nome, local, data]) => {
         return data >= hoje && data <= segunda
     })
