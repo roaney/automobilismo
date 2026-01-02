@@ -32,10 +32,10 @@ function filtroSemanal (categoria) {
     if (diaDaSemana == 0) {
         diaDaSemana = 7
     }
-    const segunda = new Date(hoje)
+    const segunda = new Date()
     segunda.setDate(hoje.getDate() - (diaDaSemana - 1))
-    const domingo = new Date(segunda)
-    domingo.setDate(segunda.getDate() + 6)
+    const domingo = new Date()
+    domingo.setDate(hoje.getDate() + (7 - diaDaSemana))
     const agendaHTML = document.getElementById('agenda-semanal')
     const categoriaFiltrada = categoria.filter(([nome, local, data]) => {
         return data >= segunda && data <= domingo
