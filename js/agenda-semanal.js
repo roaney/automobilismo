@@ -14,24 +14,31 @@ botaoFechar.addEventListener('click', () => {
 })
 const f1 = [
     ['Fórmula 1', 'Austrália', new Date(2026, 0, 4)],
-    ['Fórmula 1', 'China', '15 de março'],
+    ['Fórmula 1', 'China', new Date(2026, 0, 11)],
     ['Fórmula 1', 'Japão', '29 de março'],
     ['Fórmula 1', 'Barein', '12 de abril'],
     ['Fórmula 1', 'Arábia Saudita', '19 de abril']
 ]
 const nascar = [
     ['Nascar', 'Bowman Gray', new Date(2026, 0, 4)],
-    ['Nascar', 'Daytona Duels', '12 de fevereiro'],
+    ['Nascar', 'Daytona Duels', new Date(2026, 0, 11)],
     ['Nascar', 'Daytona 500', '15 de fevereiro'],
     ['Nascar', 'Atlanta', '22 de fevereiro'],
     ['Nascar', 'COTA', '1 de março']
 ]
 function filtroSemanal (categoria) {
     const hoje = new Date()
-    const segunda = new Date(2026, 0, 5)
+    let diaDaSemana = hoje.getDay()
+    if (diaDaSemana == 0) {
+        diaDaSemana = 7
+    }
+    const segunda = new Date(hoje)
+    segunda.setDate(hoje.getDate() - (diaDaSemana - 1))
+    const domingo = new Date(segunda)
+    domingo.setDate(segunda.getDate() + 6)
     const agendaHTML = document.getElementById('agenda-semanal')
     const categoriaFiltrada = categoria.filter(([nome, local, data]) => {
-        return data >= hoje && data <= segunda
+        return data >= segunda && data <= domingo
     })
     categoriaFiltrada.forEach(([nome, local, data]) => {
         agendaHTML.innerHTML += `<br>${nome} - ${local} - ${String(data.getDate()).padStart(2, '0')} / ${String(data.getMonth()+1).padStart(2, '0')}`
