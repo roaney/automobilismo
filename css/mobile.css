@@ -195,9 +195,15 @@ header {
 #nurburgring-24 {
     width: 160px;
 }
-#agenda-semanal {
+#main-agenda {
     color: white;
-    font-size: 1.2em;
     text-align: center;
+}
+#h1-agenda {
+    font-size: 1.5em;
+    padding: 15px;
+}
+#agenda-semanal {
+    font-size: 1.2em;
     padding: 15px;
 }

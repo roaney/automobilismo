@@ -41,7 +41,7 @@ function filtroSemanal (categoria) {
         return data >= segunda && data <= domingo
     })
     categoriaFiltrada.forEach(([nome, local, data]) => {
-        agendaHTML.innerHTML += `<br>${nome} - ${local} - ${String(data.getDate()).padStart(2, '0')} / ${String(data.getMonth()+1).padStart(2, '0')}`
+        agendaHTML.innerHTML += `${nome} - ${local} - ${String(data.getDate()).padStart(2, '0')} / ${String(data.getMonth()+1).padStart(2, '0')}<br>`
     })
 }
 const todasCategorias = [f1, nascar]
