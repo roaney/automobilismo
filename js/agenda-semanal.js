@@ -47,8 +47,8 @@ function filtroSemanal (categoria) {
     })
 }
 todasCategorias.forEach(elemento => filtroSemanal(elemento))
-if (agenda == {}) {
-    h1.innerHTML = 'As corridas desse final de semana'
-} else {
+if (agenda.textContent.trim() == '') {
     h1.innerHTML = '<i class="fa-regular fa-face-frown"></i> Que pena, não temos corridas nesse final de semana.'
+} else {
+    h1.innerHTML = 'As corridas desse final de semana'
 }
