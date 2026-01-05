@@ -14,8 +14,30 @@ botaoFechar.addEventListener('click', () => {
 })
 const calendario = {
     'Fórmula 1': [
-        ['Austrália', new Date(2026, 0, 4)],
-        ['China', new Date(2026, 0, 12)]
+        ['Austrália', new Date(2026, 2, 8)],
+        ['China', new Date(2026, 2, 15)],
+        ['Japão', new Date(2026, 2, 29)],
+        ['Barein', new Date(2026, 3, 12)],
+        ['Arabia-Saudita', new Date(2026, 3, 19)],
+        ['Miami', new Date(2026, 4, 3)],
+        ['Canadá', new Date(2026, 4, 24)],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )],
+        ['', new Date(2026, , )]
     ],
     'Nascar': [
         ['Bowman Gray', new Date(2026, 0, 19)],
