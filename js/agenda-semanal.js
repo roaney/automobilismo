@@ -70,7 +70,7 @@ const calendario = {
         ['New Hampshire', new Date(2026, 7, 23)],
         ['Daytona 400', new Date(2026, 7, 29)],
         ['Darlington', new Date(2026, 8, 6)],
-        ['Gateway', new Date(2026, 8, 13)],
+        ['World Wide Technology', new Date(2026, 8, 13)],
         ['Bristol', new Date(2026, 8, 19)],
         ['Kansas', new Date(2026, 8, 27)],
         ['Las Vegas', new Date(2026, 9, 4)],
@@ -87,11 +87,30 @@ const calendario = {
         ['2H 40MIN Laguna Seca', new Date(2026, 4, 3)],
         ['100MIN Detroit', new Date(2026, 4, 30)],
         ['6H Watkins Glen', new Date(2026, 5, 28)],
-        ['2H 40MIN Ontario', new Date(2026, 6, 12)],
+        ['2H 40MIN Bowmanville - Canada', new Date(2026, 6, 12)],
         ['6H Road America', new Date(2026, 7, 2)],
         ['2H 40MIN Virginia', new Date(2026, 7, 23)],
         ['2H 40MIN Indianapolis', new Date(2026, 8, 20)],
         ['10H Road Atlanta', new Date(2026, 9, 3)]
+    ],
+    'IndyCar': [
+        ['St. Petersburg', new Date(2026, 2, 1)],
+        ['Phoenix', new Date(2026, 2, 7)],
+        ['Arlington', new Date(2026, 2, 15)],
+        ['Alabama', new Date(2026, 2, 29)],
+        ['Long Beach', new Date(2026, 3, 19)],
+        ['Indianapolis Road Course', new Date(2026, 4, 9)],
+        ['Indianapolis 500', new Date(2026, 4, 24)],
+        ['Detroit', new Date(2026, 4, 31)],
+        ['World Wide Technology', new Date(2026, 5, 7)],
+        ['Road America', new Date(2026, 5, 21)],
+        ['Mid-Ohio', new Date(2026, 6, 5)],
+        ['Nashville', new Date(2026, 6, 19)],
+        ['Portland', new Date(2026, 7, 9)],
+        ['Markham - Canada', new Date(2026, 7, 16)],
+        ['Milwaukee Mile Race 1', new Date(2026, 7, 29)],
+        ['Milwaukee Mile Race 2', new Date(2026, 7, 30)],
+        ['Laguna Seca', new Date(2026, 8, 6)]
     ]
 }
 const h1 = document.getElementById('h1-agenda')
