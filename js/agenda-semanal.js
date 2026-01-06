@@ -90,7 +90,7 @@ const calendario = {
         ['2H 40MIN Bowmanville - Canada', new Date(2026, 6, 12)],
         ['6H Road America', new Date(2026, 7, 2)],
         ['2H 40MIN Virginia', new Date(2026, 7, 23)],
-        ['2H 40MIN Indianapolis', new Date(2026, 8, 20)],
+        ['2H 40MIN Indianapolis Road Course', new Date(2026, 8, 20)],
         ['10H Road Atlanta', new Date(2026, 9, 3)]
     ],
     'IndyCar': [
