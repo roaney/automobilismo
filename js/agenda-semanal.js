@@ -32,7 +32,7 @@ const calendario = {
         ['Madrid', new Date(2026, 8, 13)],
         ['Azerbaijão', new Date(2026, 8, 26)],
         ['Cingapura', new Date(2026, 9, 11)],
-        ['COTA', new Date(2026, 9, 25)],
+        ['Estados Unidos', new Date(2026, 9, 25)],
         ['México', new Date(2026, 10, 1)],
         ['Brasil', new Date(2026, 10, 8)],
         ['Las Vegas', new Date(2026, 10, 21)],
@@ -111,6 +111,30 @@ const calendario = {
         ['Milwaukee Mile Race 1', new Date(2026, 7, 29)],
         ['Milwaukee Mile Race 2', new Date(2026, 7, 30)],
         ['Laguna Seca', new Date(2026, 8, 6)]
+    ],
+    'MotoGP': [
+        ['Tailândia', new Date(2026, 2, 1)],
+        ['Brasil', new Date(2026, 2, 22)],
+        ['Estados Unidos', new Date(2026, 2, 29)],
+        ['Catar', new Date(2026, 3, 12)],
+        ['Espanha', new Date(2026, 3, 26)],
+        ['França', new Date(2026, 4, 10)],
+        ['Catalunha', new Date(2026, 4, 17)],
+        ['Itália', new Date(2026, 4, 31)],
+        ['Hungria', new Date(2026, 5, 7)],
+        ['República Tcheca', new Date(2026, 5, 21)],
+        ['Holanda', new Date(2026, 5, 28)],
+        ['Alemanha', new Date(2026, 6, 12)],
+        ['Grã-Bretanha', new Date(2026, 7, 9)],
+        ['Aragão', new Date(2026, 7, 30)],
+        ['San Marino', new Date(2026, 8, 13)],
+        ['Austria', new Date(2026, 8, 20)],
+        ['Japão', new Date(2026, 9, 4)],
+        ['Indonésia', new Date(2026, 9, 11)],
+        ['Austrália', new Date(2026, 9, 25)],
+        ['Malásia', new Date(2026, 10, 1)],
+        ['Portugal', new Date(2026, 10, 15)],
+        ['Valência', new Date(2026, 10, 22)]
     ]
 }
 const h1 = document.getElementById('h1-agenda')
