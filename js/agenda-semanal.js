@@ -81,6 +81,7 @@ const calendario = {
         ['Homestead-Miami', new Date(2026, 10, 8)]
     ],
     'IMSA': [
+        ['Interlagos', new Date(2026, 0, 10)],
         ['24H Daytona', new Date(2026, 0, 24)],
         ['12H Sebring', new Date(2026, 2, 21)],
         ['100MIN Long Beach', new Date(2026, 3, 18)],
@@ -94,6 +95,7 @@ const calendario = {
         ['10H Road Atlanta', new Date(2026, 9, 3)]
     ],
     'IndyCar': [
+        ['Michigan', new Date(2026, 0, 11)],
         ['St. Petersburg', new Date(2026, 2, 1)],
         ['Phoenix', new Date(2026, 2, 7)],
         ['Arlington', new Date(2026, 2, 15)],
