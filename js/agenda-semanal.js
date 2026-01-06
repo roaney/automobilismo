@@ -145,6 +145,24 @@ const calendario = {
         ['Estados Unidos', new Date(2026, 8, 6)],
         ['Japão', new Date(2026, 8, 27)],
         ['Bahrein', new Date(2026, 10, 7)]
+    ],
+    'DTM': [
+        ['Red Bull Ring Race 1', new Date(2026, 3, 24)],
+        ['Red Bull Ring Race 2', new Date(2026, 3, 25)],
+        ['Zandvoort Race 1', new Date(2026, 4, 23)],
+        ['Zandvoort Race 2', new Date(2026, 4, 24)],
+        ['Lausitzring Race 1', new Date(2026, 5, 20)],
+        ['Lausitzring Race 2', new Date(2026, 5, 21)],
+        ['Norisring Race 1', new Date(2026, 6, 3)],
+        ['Norisring Race 2', new Date(2026, 6, 4)],
+        ['Oschersleben Race 1', new Date(2026, 6, 24)],
+        ['Oschersleben Race 2', new Date(2026, 6, 25)],
+        ['Nürburgring Race 1', new Date(2026, 7, 15)],
+        ['Nürburgring Race 2', new Date(2026, 7, 16)],
+        ['Sachsenring Race 1', new Date(2026, 8, 11)],
+        ['Sachsenring Race 2', new Date(2026, 8, 12)],
+        ['Hockenheimring Race 1', new Date(2026, 9, 9)],
+        ['Hockenheimring Race 2', new Date(2026, 9, 10)]
     ]
 }
 const h1 = document.getElementById('h1-agenda')
