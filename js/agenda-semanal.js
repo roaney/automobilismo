@@ -17,7 +17,7 @@ const calendario = {
         ['Austrália', new Date(2026, 2, 8)],
         ['China', new Date(2026, 2, 15)],
         ['Japão', new Date(2026, 2, 29)],
-        ['Barein', new Date(2026, 3, 12)],
+        ['Bahrein', new Date(2026, 3, 12)],
         ['Arabia-Saudita', new Date(2026, 3, 19)],
         ['Miami', new Date(2026, 4, 3)],
         ['Canadá', new Date(2026, 4, 24)],
@@ -135,6 +135,16 @@ const calendario = {
         ['Malásia', new Date(2026, 10, 1)],
         ['Portugal', new Date(2026, 10, 15)],
         ['Valência', new Date(2026, 10, 22)]
+    ],
+    'WEC': [
+        ['Catar', new Date(2026, 2, 28)],
+        ['Itália', new Date(2026, 3, 19)],
+        ['Bélgica', new Date(2026, 4, 9)],
+        ['França', new Date(2026, 5, 13)],
+        ['Brasil', new Date(2026, 6, 12)],
+        ['Estados Unidos', new Date(2026, 8, 6)],
+        ['Japão', new Date(2026, 8, 27)],
+        ['Bahrein', new Date(2026, 10, 7)]
     ]
 }
 const h1 = document.getElementById('h1-agenda')
