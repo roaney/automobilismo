@@ -79,6 +79,19 @@ const calendario = {
         ['Talladega', new Date(2026, 9, 25)],
         ['Martinsville', new Date(2026, 10, 1)],
         ['Homestead-Miami', new Date(2026, 10, 8)]
+    ],
+    'IMSA': [
+        ['24H Daytona', new Date(2026, 0, 24)],
+        ['12H Sebring', new Date(2026, 2, 21)],
+        ['100MIN Long Beach', new Date(2026, 3, 18)],
+        ['2H 40MIN Laguna Seca', new Date(2026, 4, 3)],
+        ['100MIN Detroit', new Date(2026, 4, 30)],
+        ['6H Watkins Glen', new Date(2026, 5, 28)],
+        ['2H 40MIN Ontario', new Date(2026, 6, 12)],
+        ['6H Road America', new Date(2026, 7, 2)],
+        ['2H 40MIN Virginia', new Date(2026, 7, 23)],
+        ['2H 40MIN Indianapolis', new Date(2026, 8, 20)],
+        ['10H Road Atlanta', new Date(2026, 9, 3)]
     ]
 }
 const h1 = document.getElementById('h1-agenda')
