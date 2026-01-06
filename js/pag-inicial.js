@@ -16,14 +16,17 @@ function regressiva(diaEvento, idElemento) {
         }
     }, 1000)
 }
-regressiva(new Date(2026, 0, 24), 'txt-imsa')
-regressiva(new Date(2026, 5, 13), 'txt-wec')
-regressiva(new Date(2026, 2, 22), 'txt-motogp')
-regressiva(new Date(2026, 5, 27), 'txt-gtw')
-regressiva(new Date(2026, 10, 8), 'txt-f1')
-regressiva(new Date(2026, 1, 15), 'txt-nascar')
-regressiva(new Date(2026, 4, 24), 'txt-indy')
-regressiva(new Date(2026, 4, 16), 'txt-adac')
+const datas = [
+    [new Date(2026, 0, 24), 'txt-imsa'],
+    [new Date(2026, 5, 13), 'txt-wec'],
+    [new Date(2026, 2, 22), 'txt-motogp'],
+    [new Date(2026, 5, 27), 'txt-gtw'],
+    [new Date(2026, 10, 8), 'txt-f1'],
+    [new Date(2026, 1, 15), 'txt-nascar'],
+    [new Date(2026, 4, 24), 'txt-indy'],
+    [new Date(2026, 4, 16), 'txt-adac']
+]
+datas.forEach(([data, elementoHTML]) => regressiva(data, elementoHTML))
 const botaoAbrir = document.getElementById('abrir-menu')
 const botaoFechar = document.getElementById('fechar-menu')
 const menu = document.getElementById('menu')
