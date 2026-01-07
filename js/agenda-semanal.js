@@ -181,6 +181,19 @@ const domingo = new Date()
 domingo.setDate(hoje.getDate() + (7 - diaDaSemana))
 domingo.setHours(1)
 const categorias = Object.entries(calendario)
+const filtroSemanal = []
+categorias.forEach(([categoria, etapas]) => {
+    const etapaDaSemana = etapas.filter(([local, data]) => {
+        return data >= segunda && data <= domingo
+    })
+    if (etapaDaSemana) {
+        filtroSemanal.push([categoria, etapaDaSemana])
+    }
+})
+filtroSemanal.forEach(([categoria, etapa]) => {
+    agenda.innerHTML += `${categoria} - ${etapa[0][0]} - ${String(etapa[0][1].getDate()).padStart(2, '0')}/${String(etapa[0][1].getMonth() + 1).padStart(2, '0')}<br>`
+})
+/*const categorias = Object.entries(calendario)
 categorias.forEach(([categoria, etapas]) => {
     const etapaDaSemana = etapas.filter(([local, data]) => {
         return data >= segunda && data <= domingo
@@ -188,7 +201,7 @@ categorias.forEach(([categoria, etapas]) => {
     etapaDaSemana.forEach(([local, data]) => {
         agenda.innerHTML += `${categoria} - ${local} - ${String(data.getDate()).padStart(2, '0')}/${String(data.getMonth() + 1).padStart(2, '0')}<br>`
     })
-})
+})*/
 if (agenda.textContent.trim() === '') {
     h1.innerHTML = '<i class="fa-regular fa-face-frown"></i> Que pena, não temos corridas nesse final de semana.'
 } else {
