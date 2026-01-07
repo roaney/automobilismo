@@ -81,7 +81,6 @@ const calendario = {
         ['Homestead-Miami', new Date(2026, 10, 8)]
     ],
     'IMSA': [
-        ['Interlagos', new Date(2026, 0, 10)],
         ['24H Daytona', new Date(2026, 0, 24)],
         ['12H Sebring', new Date(2026, 2, 21)],
         ['100MIN Long Beach', new Date(2026, 3, 18)],
@@ -95,7 +94,6 @@ const calendario = {
         ['10H Road Atlanta', new Date(2026, 9, 3)]
     ],
     'IndyCar': [
-        ['Michigan', new Date(2026, 0, 11)],
         ['St. Petersburg', new Date(2026, 2, 1)],
         ['Phoenix', new Date(2026, 2, 7)],
         ['Arlington', new Date(2026, 2, 15)],
@@ -186,22 +184,16 @@ categorias.forEach(([categoria, etapas]) => {
     const etapaDaSemana = etapas.filter(([local, data]) => {
         return data >= segunda && data <= domingo
     })
-    if (etapaDaSemana) {
-        filtroSemanal.push([categoria, etapaDaSemana])
+    if (etapaDaSemana.length != 0) {
+        etapaDaSemana.forEach(([local, data]) => {
+            filtroSemanal.push([categoria, local, data])
+        })
     }
 })
-filtroSemanal.forEach(([categoria, etapa]) => {
-    agenda.innerHTML += `${categoria} - ${etapa[0][0]} - ${String(etapa[0][1].getDate()).padStart(2, '0')}/${String(etapa[0][1].getMonth() + 1).padStart(2, '0')}<br>`
+filtroSemanal.sort((a, b) => a[2].getTime() - b[2].getTime())
+filtroSemanal.forEach(([categoria, local, data]) => {
+    agenda.innerHTML += `${categoria} - ${local} - ${String(data.getDate()).padStart(2, '0')}/${String(data.getMonth() + 1).padStart(2, '0')}<br>`
 })
-/*const categorias = Object.entries(calendario)
-categorias.forEach(([categoria, etapas]) => {
-    const etapaDaSemana = etapas.filter(([local, data]) => {
-        return data >= segunda && data <= domingo
-    })
-    etapaDaSemana.forEach(([local, data]) => {
-        agenda.innerHTML += `${categoria} - ${local} - ${String(data.getDate()).padStart(2, '0')}/${String(data.getMonth() + 1).padStart(2, '0')}<br>`
-    })
-})*/
 if (agenda.textContent.trim() === '') {
     h1.innerHTML = '<i class="fa-regular fa-face-frown"></i> Que pena, não temos corridas nesse final de semana.'
 } else {
