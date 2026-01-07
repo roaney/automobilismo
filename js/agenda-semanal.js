@@ -190,7 +190,7 @@ categorias.forEach(([categoria, etapas]) => {
         })
     }
 })
-filtroSemanal.sort((a, b) => a[2].getTime() - b[2].getTime())
+filtroSemanal.sort((a, b) => a[2] - b[2])
 filtroSemanal.forEach(([categoria, local, data]) => {
     agenda.innerHTML += `${categoria} - ${local} - ${String(data.getDate()).padStart(2, '0')}/${String(data.getMonth() + 1).padStart(2, '0')}<br>`
 })
