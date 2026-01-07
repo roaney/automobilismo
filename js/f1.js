@@ -13,6 +13,7 @@ botaoFechar.addEventListener('click', () => {
     overlay.style.opacity = '0'
 })
 const formula1 = [
+    ['Austrália', new Date(2026, 0, 7)],
     ['Austrália', new Date(2026, 2, 8)],
     ['China', new Date(2026, 2, 15)],
     ['Japão', new Date(2026, 2, 29)],
@@ -39,6 +40,11 @@ const formula1 = [
     ['Abu Dhabi', new Date(2026, 11, 6)]
 ]
 const agenda = document.getElementById('agenda')
+const hoje = new Date()
 formula1.forEach(([local, data]) => {
-    agenda.innerHTML += `${local} - ${String(data.getDate()).padStart(2, '0')}/${String(data.getMonth() + 1).padStart(2, '0')}<br>`
+    if (hoje > data.setHours(23)) {
+        agenda.innerHTML += `<i class="fa-solid fa-flag-checkered"></i> ${local} - ${String(data.getDate()).padStart(2, '0')}/${String(data.getMonth() + 1).padStart(2, '0')}<br>`
+    } else {
+        agenda.innerHTML += `${local} - ${String(data.getDate()).padStart(2, '0')}/${String(data.getMonth() + 1).padStart(2, '0')}<br>`
+    }
 })
