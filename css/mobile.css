@@ -10,9 +10,7 @@
     src: url('../fontes/GoogleSans-VariableFont_GRAD\,opsz\,wght.ttf') format('truetype');
 }
 body {
-    background-image: linear-gradient(135deg, rgb(70, 70, 70), black);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: black;
 }
 header {
     position: sticky;
