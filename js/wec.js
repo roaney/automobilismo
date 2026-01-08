@@ -13,14 +13,14 @@ botaoFechar.addEventListener('click', () => {
     overlay.style.opacity = '0'
 })
 const wec = [
-    ['Catar', new Date(2026, 2, 28)],
-    ['Itália', new Date(2026, 3, 19)],
-    ['Bélgica', new Date(2026, 4, 9)],
-    ['França', new Date(2026, 5, 13)],
-    ['Brasil', new Date(2026, 6, 12)],
-    ['Estados Unidos', new Date(2026, 8, 6)],
-    ['Japão', new Date(2026, 8, 27)],
-    ['Bahrein', new Date(2026, 10, 7)]
+    ['1812KM Catar', new Date(2026, 2, 28)],
+    ['6H Itália', new Date(2026, 3, 19)],
+    ['6H Bélgica', new Date(2026, 4, 9)],
+    ['24H França', new Date(2026, 5, 13)],
+    ['6H Brasil', new Date(2026, 6, 12)],
+    ['6H Estados Unidos', new Date(2026, 8, 6)],
+    ['6H Japão', new Date(2026, 8, 27)],
+    ['8H Bahrein', new Date(2026, 10, 7)]
 ]
 const agenda = document.getElementById('agenda')
 const hoje = new Date()
