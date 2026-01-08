@@ -13,7 +13,6 @@ botaoFechar.addEventListener('click', () => {
     overlay.style.opacity = '0'
 })
 const formula1 = [
-    ['Austrália', new Date(2026, 0, 7)],
     ['Austrália', new Date(2026, 2, 8)],
     ['China', new Date(2026, 2, 15)],
     ['Japão', new Date(2026, 2, 29)],
