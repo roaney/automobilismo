@@ -9,7 +9,7 @@
     font-family: 'google';
     src: url('../fontes/GoogleSans-VariableFont_GRAD\,opsz\,wght.ttf') format('truetype');
 }
-body {
+html {
     background-image: linear-gradient(135deg, rgb(70, 70, 70), black);
     background-repeat: no-repeat;
     background-attachment: fixed;
