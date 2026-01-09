@@ -219,3 +219,12 @@ header {
     font-size: 1.2em;
     padding: 15px;
 }
+#destaque-categoria > h1, h2 {
+    padding: 15px;
+    text-align: left;
+}
+#destaque-categoria a {
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(0, 255, 0);
+}
