@@ -24,3 +24,6 @@
 .terceira-posicao {
     grid-area: -2 / 1 / -1 / 2;
 }
+#destaque-categoria > h1, h2 {
+    padding-left: 100px;
+}
