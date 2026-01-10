@@ -18,7 +18,7 @@
 .primeira-posicao {
     grid-area: 1 / 1 / 2 / 2;
 }
-.segunda_posicao {
+.segunda-posicao {
     grid-area: 2 / 1 / -2 / 2;
 }
 .terceira-posicao {

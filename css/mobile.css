@@ -103,13 +103,20 @@ header {
     background-size: cover;
     box-shadow: inset 0px 0px 100px 0px black;
     margin-bottom: 15px;
+    transition: all 0.5s ease-out;
 }
 .borda {
     border-radius: 15px;
     overflow: hidden;
 }
-.posicao-grid {
+.primeira-posicao {
     grid-area: 1 / 1 / 2 / -1;
+}
+.segunda-posicao {
+    grid-area: 2 / 1 / -1 / 2;
+}
+.terceira-posicao {
+    grid-area: 2 / 2 / -1 / -1;
 }
 #imsa {
     background-image: url(../imagens/imsa.jpeg);
