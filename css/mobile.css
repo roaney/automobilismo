@@ -96,7 +96,7 @@ header {
 .grid {
     height: 400px;
     display: grid;
-    grid-template: 200px 200px / 1fr 1fr;
+    grid-template: 1fr 1fr / 1fr 1fr;
     place-items: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;

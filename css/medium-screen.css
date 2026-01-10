@@ -11,3 +11,16 @@
     color: white;
     transform: translate(-20px, 10px);
 }
+.grid {
+    height: 500px;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+}
+.primeira-posicao {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.segunda_posicao {
+    grid-area: 2 / 1 / -2 / 2;
+}
+.terceira-posicao {
+    grid-area: -2 / 1 / -1 / 2;
+}
