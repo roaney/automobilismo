@@ -58,3 +58,6 @@ header {
 .terceira-posicao {
     grid-area: 1 / -2 / 2 / -1;
 }
+#destaque-categoria > h1, h2 {
+    padding-left: 200px;
+}
