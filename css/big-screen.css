@@ -34,3 +34,12 @@ header {
     padding: 5px;
     gap: unset;
 }
+.verde:hover {
+    color: black;
+}
+.verde-claro:hover {
+    color: black;
+}
+.verde-escuro:hover {
+    color: black;
+}

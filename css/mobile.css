@@ -45,14 +45,17 @@ header {
 .verde {
     text-decoration: none;
     color: rgb(0, 120, 0);
+    transition: all 0.3s ease-out;
 }
 .verde-claro {
     text-decoration: none;
     color: rgb(0, 170, 0);
+    transition: all 0.3s ease-out;
 }
 .verde-escuro {
     text-decoration: none;
     color: rgb(0, 70, 0);
+    transition: all 0.3s ease-out;
 }
 #overlay {
     visibility: hidden;
