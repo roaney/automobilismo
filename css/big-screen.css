@@ -46,3 +46,15 @@ header {
 #wec {
     background-position: right center;
 }
+.grid {
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+}
+.primeira-posicao {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.segunda-posicao {
+    grid-area: 1 / 2 / 2 / -2;
+}
+.terceira-posicao {
+    grid-area: 1 / -2 / 2 / -1;
+}
