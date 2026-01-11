@@ -1,0 +1,41 @@
+@charset "UTF-8";
+#abrir-menu {
+    display: none;
+}
+#fechar-menu {
+    display: none;
+}
+#overlay {
+    display: none;
+}
+#home {
+    grid-area: 1 / 1 / -1 / 3;
+    font-size: 4.0em;
+    color: white;
+}
+#racing {
+    grid-area: 1 / 3 / -1 / -1;
+    font-size: 4.0em;
+    color: white;
+}
+header {
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    display: grid;
+    grid-template: 50px 50px / 1fr 3fr 3fr 1fr;
+    place-items: center center;
+    background-image: url(../imagens/daytona-header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+}
+#menu {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: static;
+    width: unset;
+    height: unset;
+    border-radius: unset;
+}
